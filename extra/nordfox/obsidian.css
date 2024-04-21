@@ -1,0 +1,89 @@
+.theme-dark {
+  --accent-h: 311.71;
+  --accent-s: 17.30%;
+  --accent-l: 53.53%;
+  --mono-rgb-100: 205, 206, 207;
+  --mono-rgb-0: 35, 40, 49;
+  --color-base-110: #c7cdd9;
+  --color-base-100: #cdcecf;
+  --color-base-70: #abb1bb;
+  --color-base-60: #7e8188;
+  --color-base-50: #727884; /* outside of original spec */
+  --color-base-40: #666f81; /* outside of original spec */
+  --color-base-35: #5a657d;
+  --color-base-30: #444c5e;
+  --color-base-25: #3f4657; /* outside of original spec */
+  --color-base-20: #39404f;
+  --color-base-10: #2e3440;
+  --color-base-05: #292e39; /* outside of original spec */
+  --color-base-00: #232831;
+
+  --color-cyan: #88c0d0;
+  --color-cyan-bright: #93ccdc;
+  --color-cyan-dim: #69a7ba;
+  --color-pink: #bf88bc;
+  --color-pink-bright: #d092ce;
+  --color-pink-dim: #a96ca5;
+  --color-purple: #b48ead;
+  --color-purple-bright: #c895bf;
+  --color-purple-dim: #9d7495;
+  --color-blue: #81a1c1;
+  --color-blue-bright: #8cafd2;
+  --color-blue-dim: #668aab;
+  --color-orange: #c9826b;
+  --color-orange-bright: #d89079;
+  --color-orange-dim: #b46950;
+  --color-red: #bf616a;
+  --color-red-bright: #d06f79;
+  --color-red-dim: #a54e56;
+  --color-yellow: #ebcb8b;
+  --color-yellow-bright: #f0d399;
+  --color-yellow-dim: #d9b263;
+  --color-green: #a3be8c;
+  --color-green-bright: #b1d196;
+  --color-green-dim: #8aa872;
+
+  --color-cyan-rgb: 136, 192, 208;
+  --color-pink-rgb: 191, 136, 188;
+  --color-purple-rgb: 180, 142, 173;
+  --color-blue-rgb: 129, 161, 193;
+  --color-orange-rgb: 201, 130, 107;
+  --color-red-rgb: 191, 97, 106;
+  --color-yellow-rgb: 235, 203, 139;
+  --color-green-rgb: 163, 190, 140;
+
+  --code-comment: #60728a;
+  --code-inline-background: var(--color-base-00);
+}
+
+body {
+  --background-primary: var(--color-base-10);
+  --background-primary-alt: var(--color-base-05);
+  --background-secondary: var(--color-base-05);
+  --code-background: var(--color-base-05);
+  --code-inline-background: var(--code-background);
+  --titlebar-background: var(--color-base-00);
+  --titlebar-background-focused: var(--color-base-00);
+  --ribbon-background: var(--color-base-00);
+  --ribbon-background-collapsed: var(--color-base-05);
+  --modal-border-color: var(--color-base-30);
+  --background-modifier-border: var(--color-base-25);
+  --background-modifier-border-hover: var(--color-base-30);
+  --background-modifier-border-focus: var(--color-base-35);
+  --table-header-background: var(--color-base-05);
+  --table-header-background-hover: var(--color-base-05);
+  --blockquote-background-color: rgba(var(--color-blue-rgb), 0.05);
+  --bold-color: var(--color-base-110);
+
+  --heading-color: var(--color-base-110);
+  --h1-color: var(--heading-color);
+  --h2-color: var(--heading-color);
+  --h3-color: var(--heading-color);
+  --h4-color: var(--heading-color);
+  --h5-color: var(--heading-color);
+  --h6-color: var(--heading-color);
+}
+
+.markdown-rendered code {
+  background-color: var(--code-inline-background);
+}
